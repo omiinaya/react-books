@@ -30,13 +30,18 @@ export function newBookRow() {
         
         const div = document.createElement('div');
         div.innerHTML = `
-        <div id="book-`+i+`
+        <div id="book-`+i+`">
             <p id="title-`+i+`">Title: `+results[i].volumeInfo.title+`</p>
             <p id="author-`+i+`">Author: `+results[i].volumeInfo.authors[0]+`</p>
             <p id="description-`+i+`">Description: `+results[i].volumeInfo.description+`</p>
             <img id="image-`+i+`" src="`+results[i].volumeInfo.imageLinks.smallThumbnail+`">
+            <button onclick="test()">test</button>
         </div>
         `;
         document.getElementById('content').appendChild(div);
     }
+}
+
+export function test() {
+    console.log("test");
 }
