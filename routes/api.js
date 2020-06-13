@@ -12,8 +12,7 @@ module.exports = function(app) {
     })
 
     app.post("/api/books", function (req, res){
-        documents.create({
-        })
+        documents.create(req.body)
         .then(data => {
             res.json(data)
         })
