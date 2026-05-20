@@ -8,6 +8,4 @@ function Jumbotron() {
   );
 }
 
-
-
 export default Jumbotron;

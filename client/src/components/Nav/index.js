@@ -6,14 +6,14 @@ function Nav() {
     <div>
       <nav>
         <center>
-        <ul>
-          <li>
-            <a href="/">Search Books</a>
-          </li>
-          <li>
-            <a href="/saved">Saved Books</a>
-          </li>
-        </ul>
+          <ul>
+            <li>
+              <a href="/">Search Books</a>
+            </li>
+            <li>
+              <a href="/saved">Saved Books</a>
+            </li>
+          </ul>
         </center>
       </nav>
       <Jumbotron />

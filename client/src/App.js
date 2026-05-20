@@ -3,14 +3,14 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Saved from "./pages/Saved";
 import Search from "./pages/Search";
 import Nav from "./components/Nav";
-import { Container} from "./components/Grid";
-import './App.css';
+import { Container } from "./components/Grid";
+import "./App.css";
 
 class App extends Component {
   render() {
     return (
       <div>
-        <Nav/>
+        <Nav />
         <Router>
           <Container>
             <Switch>
