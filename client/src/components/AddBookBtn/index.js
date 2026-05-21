@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 class AddBookBtn extends React.Component {
   postToDB = (book) => {
-    var dbBook = {
+    const dbBook = {
       title: book.title,
       authors: book.authors,
       synopsis: book.synopsis,
