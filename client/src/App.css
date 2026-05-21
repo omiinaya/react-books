@@ -1,19 +1,19 @@
 ul {
-    padding: 0;
-    list-style: none;
+  padding: 0;
+  list-style: none;
 }
 
-li { 
-    display:inline;
-    margin: 1%;
+li {
+  display: inline;
+  margin: 1%;
 }
 
 ol {
-    padding: 0;
-    list-style: none;
-    display:inline-block;
+  padding: 0;
+  list-style: none;
+  display: inline-block;
 }
 
 .book-card {
-    margin: 1%;
+  margin: 1%;
 }
